@@ -35,7 +35,7 @@ aside {
     width: 20rem;
     margin: 1rem;
     padding: 1rem;
-    border: 0 solid rgb(0 0 0/0.2);
+    border: 1 solid rgb(0 0 0/0.2);
     background-color: #eee;
     color: #333;
     text-align: center;
