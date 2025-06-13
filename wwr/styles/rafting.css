@@ -156,17 +156,18 @@ h2 {
 
 }
 
-.history, .adventure, .hero, .adventure, .socialmedia  {
+/* .history, .adventure, .hero, .adventure, .socialmedia  {
   box-sizing: border-box;
   margin-top: 10px;
   
-}
+} */
 .online-presence {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 16px 32px;
   background-color: var(--accent2-color);
+  color: #fff;
 }
 .online-presence p {
   font-size: 0.5rem;
@@ -180,11 +181,10 @@ h2 {
 .socialmedia {
   gap: 20px;
 }
-
-.history, .adventure, .hero, .adventure, .online-presence  {
+ .history, .adventure, .hero, .adventure, .online-presence, .contact-form, .contact, .contact-message {
   box-sizing: border-box;
   margin-top: 10px;
-}
+} 
 .history {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -228,3 +228,106 @@ h2 {
   text-align: left;
   padding: 10px;
 }
+.contact-form {
+  padding: 2rem;
+  background-color: rgb(64, 148, 207);
+}
+
+.contact-form h3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.contact-info {
+  max-width: 300px;
+}
+.contact {
+  background-color: #769cf5;
+  padding: 2rem;
+  
+}
+
+.contact h4 {
+  margin-bottom: 2rem;
+  text-align: center;
+ 
+}
+
+.contact-figure {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  
+}
+
+.contact-figure figure {
+  background-color: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  text-align: center;
+}
+.contact-figure figcaption {
+  /* padding: 1rem; */
+  font-size: 1rem;
+  color: #444;
+  background-color: #f0f0f0;
+}
+
+.contact-message {
+  background-color: #82aed9;
+  padding: 2rem;
+}
+
+.contact-message h5 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.contact-message form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact-message label {
+  font-weight: 300;
+  margin-bottom: 0.25rem;
+}
+
+.contact-message input[type="text"],
+.contact-message input[type="email"] {
+  padding: 0.75rem;
+  border: 1px solid #ab9e9e;
+  border-radius: 0.5rem;
+  background-color: #fff;
+}
+
+.contact-message input[type="radio"],
+.contact-message input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+.contact-message button {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  
+} 
+
+.contact-message button:hover {
+  background-color: #005fa3;
+}
+
+
+
+
