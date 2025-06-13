@@ -3,7 +3,7 @@
   --primary-color: #92B4F4;
   --secondary-color: #000;
   --accent1-color: #0A369D;
-  --accent2-color: #4472CA;
+  --accent2-color: #596783;
   --heading-font: "Merriweather", serif;
   --body-font: "Barlow", sans-serif;
 }
@@ -172,6 +172,9 @@ h2 {
 .online-presence p {
   font-size: 0.5rem;
   margin: 0;
+}
+.online-presence p a {
+  color: #fff;
 }
 .socialmedia a img {
   width: 20px;
