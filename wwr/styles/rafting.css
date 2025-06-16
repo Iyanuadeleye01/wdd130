@@ -184,7 +184,7 @@ h2 {
 .socialmedia {
   gap: 20px;
 }
- .history, .adventure, .hero, .adventure, .online-presence, .contact-form, .contact, .contact-message {
+ .history, .adventure, .hero, .adventure, .online-presence, .contact-form, .contact, .contact-message, .hero-home, .history-home, .form-items,.call-action, .rafting, .article-section, .table {
   box-sizing: border-box;
   margin-top: 10px;
 } 
@@ -331,6 +331,158 @@ h2 {
   background-color: #005fa3;
 }
 
+.hero-home {
+  position: relative;
+}
+.hero-home h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: solid;
+  color: #fff;
+}
+.hero-home img {
+  width: 100%;
+}
 
+.history-home {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  background-color: #8fc8f1;
+  
+  
+}
+.history-home-item img {
+  width: 300px;
+  height:300px;
+  padding: 2em;
+}
 
+.label{
+  background-color: #8bbadd;
+}
+.label h3 {
+  text-align: center;
+  padding: 1rem;
+}
 
+.form-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  height: 150px;
+  background-color: #a0c6e0;
+}
+.label-items {
+  display: flex;
+  gap: 0.5em;
+
+  
+}
+
+.form-items button {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  
+} 
+.call-action {
+  background-color: #9fd3f9;
+}
+.call-action h4 {
+  text-align: center;
+  padding: 1em;
+}
+.trip {
+  display: flex;
+  gap: 2em;
+  padding: 0.5em;
+}
+.call-action a {
+  text-decoration: none;
+}
+
+/* Trips page */
+
+.rafting {
+  background-color: #A8C6FA;
+}
+
+.rafting h1 {
+  text-align: center;
+}
+
+.rafting p {
+  padding: 1rem;
+  text-align: center;
+}
+
+.rafting p a {
+  text-decoration: none;
+  color: #0A369D;
+}
+
+.article-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #7f99ca;
+}
+.article-section h2 {
+  text-align: center;
+}
+.rapid {
+  display: flex;
+  gap: 2em;
+  padding: 1em;
+  background-color: #7fb4da;
+}
+.rapid-head h2 {
+  background-color: #7fb4da;
+  padding: 0.5em;
+}
+.family {
+  display: flex;
+  gap: 2em;
+  padding: 1em;
+}
+.family-head h2 {
+  padding: 0.5em;
+}
+.extreme {
+  display: flex;
+  gap: 2em;
+  padding: 1em;
+  background-color: #a6c4de;
+}
+.extreme-head h2 {
+  background-color: #a6c4de;
+  padding: 0.5em;
+}
+.article-section img {
+  border-radius: 1em;
+}
+
+.table {
+  background-color: #a5c9e3;
+  padding: 1em;
+}
+.table h3 {
+  text-align: center;
+  padding: 2px;
+}
+table, th, td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 8px;
+  width: 100%;
+}
