@@ -381,17 +381,18 @@ h2 {
 .label-items {
   display: flex;
   gap: 0.5em;
-
-  
 }
-
+.label-items input {
+  border-radius: 1em;
+  border: none;
+}
 .form-items button {
   margin-top: 1rem;
   padding: 0.75rem;
   background-color: #0077cc;
   color: white;
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 1em;
   cursor: pointer;
   margin-bottom: 1rem;
   
